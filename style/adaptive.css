@@ -1,0 +1,516 @@
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 1330px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+
+    .level_img img {
+        width: 100%;
+    }
+
+    .level_info {
+        width: 62%;
+    }
+
+    .person_img {
+        width: 60%;
+    }
+
+    .social {
+        padding-right: 13vh;
+    }
+    
+    .footer_outher_item ul + ul {
+        padding-left: 7vh;
+    }
+
+    
+    .episode_number {
+        margin-top: 12px;
+    }
+
+    .episode_name {
+        font-size: 48px;
+        line-height: 55px;
+    }
+
+    .episode_about {
+        font-size: 20px;
+    }
+
+    .button {
+        padding: 10px 15px;
+    }
+
+    .level_inner {
+        padding-bottom: 60px;
+    }
+
+    .episode_header {
+        padding-bottom: 27px;
+    }
+
+    .person {
+        padding-top: 60px;
+    }
+
+    .subscribe {
+        margin: 60px 0 60px;
+    }
+
+    .comment {
+        padding: 25px;
+    }
+    .comment_tittle {
+        font-size: 25px;
+    }
+
+    .about {
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+
+    .level_title, .level_title-bold{
+        font-size: 45px;
+        line-height: normal;
+    }
+
+    .level_title-underscore {
+        font-size: 45px;
+    }
+
+    .level_title-underscore::after {
+        width: 98px;
+        top: 51px;
+    }
+
+    .episode_three_img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .episode {
+        padding: 20px;
+    }
+
+    .episode_tittle {
+        font-size: 48px;
+    }
+
+    .episode_info {
+        padding-left: 20px;
+    }
+
+    .episode_name {
+        font-size: 26px;
+        line-height: normal;
+    }
+
+    .episode_about {
+        font-size: 18px;
+        line-height: normal;
+        margin-top: 23px;
+    }
+
+    .person_img {
+        width: 50%;
+    }
+
+    .person_name {
+        font-size: 34px;
+        line-height: 55px;
+    }
+
+    .social {
+        padding-right: 5vh;
+    }
+
+    .listen {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+
+    .episodes_list {
+        padding-bottom: 30px;
+    }
+
+    .person_descr {
+        font-size: 18px;
+        line-height: normal;
+        margin-top: 10px;
+    }
+
+    .button.button_around {
+        height: 80px;
+        width: 80px;
+    }
+
+    .about {
+        padding-bottom: 30px;
+    }
+
+    .subscribe {
+        margin: 30px 0 30px;
+        padding: 30px;
+    }
+
+    .subscribe::after {
+        left: -24px;
+        bottom: -36px;
+    }
+
+    .subscribe_title {
+        font-size: 54px;
+        line-height: 55px;
+    }
+
+    .subscribe_item {
+        font-size: 16px;
+    }
+
+    .subscribe_form-input {
+        height: 50px;
+    }
+
+    .comments {
+        margin: 100px 0 50px;
+    }
+
+    .comment_tittle {
+        line-height: 31px;
+    }
+
+    .footer_item {
+        padding: 50px 0 100px;
+    }
+
+    .comment {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comment_name {
+        margin-top: auto;
+    }
+
+    .footer_outher_item li {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .footer_outher_item ul + ul {
+        padding-left: 4vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .header {
+        position: fixed;
+        z-index: 50;   
+        top: 0;
+        left: 0;
+        width: 100%;
+        
+    }  
+
+    .header::before {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, black, #118da894);
+        z-index: 2;
+    }
+
+    .header_body {
+        position: relative;
+        height: 60px;
+        padding: 0;  
+    }
+    
+    .header_burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+        cursor: pointer;
+    }
+
+    .header_burger span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;   
+    }
+
+    .header_burger.active span {
+        opacity: 0;
+    }
+
+    .header_burger.active::before {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .header_burger.active::after {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+    
+    .header_burger::before,
+    .header_burger::after {
+        content: " ";
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: .3s;
+    }
+
+    .line_menu span {
+        position: absolute;
+        background-color: rgb(255 255 255 / 70%);
+        width: 100%;
+        height: 1px;
+        left: 0;
+        top: 60px;
+
+    }
+
+    .header_burger::before {
+        top: 0;
+    }
+
+    .header_burger::after {
+        bottom: 0;
+    }
+
+    .header_menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #118da8f5;
+        padding: 60px 0;
+        transform: translateX(100%);
+        transition: 0.3s;
+        height: 100%;
+        width: auto;
+        min-width: 50%;
+    }
+
+    .header_menu.active {
+        transform: translateX(0);
+    }
+
+    body.noscroll {
+        overflow: hidden;
+    }
+
+    .logo {
+        z-index: 3;
+    }
+  
+    .menu {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu_item {
+        padding: 0;
+        padding: 20px 0;
+        width: 100%;  
+    }
+
+    .menu_item:hover {
+        background-color: rgb(122 182 179 / 10%);
+    }
+
+    body {
+        margin-top: 80px;
+    }
+
+    .level_info {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .level_inner {
+        flex-direction: column-reverse;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .listen_icons {
+        padding-bottom: 30px;
+    }
+
+    .level_img::after {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 58px;
+        height: 64px;
+        left: -10px;
+    }
+
+    .episode_header {
+        align-items: center;
+    }
+
+   
+
+    .episode_tittle {
+        line-height: 1;
+        font-size: 30px;
+    }
+
+    .button {
+        white-space: nowrap;
+        font-size: 15px;
+        padding: 10px;
+        line-height: 1.1;
+    }
+   
+    .episode {
+        flex-direction: column;
+    }
+
+    .episode_img {
+        padding-bottom: 10px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+   
+    .person_img {
+        width: 100%;
+    }
+
+    .person {
+        padding-top: 25px;
+    }
+
+    .person_about {
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .subscribe {
+        flex-direction: column;
+    }
+
+    .subscribe_title {
+        font-size: 26px;
+        line-height: 1;
+        padding: 7px 0 16px;
+    }
+
+    .subscribe_form .button {
+     float: right;
+    }
+
+    .subscribe::after {
+        background-size: contain;
+        background-repeat: no-repeat;
+        left: -8px;
+        width: 20%;
+        height: 20%;
+    }
+
+    .comments {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(auto, auto);
+    }
+
+    .comment_tittle {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .comment_name {
+        font-size: 17px;
+    }
+
+    .comment {
+        padding: 21px;
+    }
+
+    .footer_item {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* align-items: row; 
+        flex-wrap: wrap; */
+    }
+
+    .social {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+    .social_icon {
+       justify-content: center;
+    }
+
+    .social .footer_logo {
+        padding-bottom: 10px;
+    }
+
+   
+    .footer_outher_item {
+        font-size: 15px;
+        line-height: 1;
+        padding-left: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .footer_outher_item ul + ul {
+        padding-left: 0;
+    }
+
+    .outher_menu {
+        padding-bottom: 15px;
+    }
+
+    .outher {
+        padding-bottom: 15px;
+    }
+
+    .episodes_list:last-child {
+        margin: 0;
+    }
+     
+    /* white-space: nowrap; */
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100%;
+    }
+    .menu {
+        
+        justify-content: space-between;
+        
+    } 
+    
+  
+}
