@@ -47,10 +47,6 @@
         padding: 10px 15px;
     }
 
-    .level_inner {
-        padding-bottom: 60px;
-    }
-
     .episode_header {
         padding-bottom: 27px;
     }
@@ -66,7 +62,7 @@
     .comment {
         padding: 25px;
     }
-    .comment_tittle {
+    .comment_title {
         font-size: 25px;
     }
 
@@ -103,7 +99,7 @@
         padding: 20px;
     }
 
-    .episode_tittle {
+    .episode_title {
         font-size: 48px;
     }
 
@@ -186,7 +182,7 @@
         margin: 100px 0 50px;
     }
 
-    .comment_tittle {
+    .comment_title {
         line-height: 31px;
     }
 
@@ -215,7 +211,7 @@
 @media screen and (max-width: 767px) {
     .container {
         width: 100%;
-        padding: 0 30px;
+        
     }
 
     .header {
@@ -353,10 +349,13 @@
         padding-left: 0;
     }
 
+    .level {
+        padding-bottom: 30px;
+    }
+
     .level_inner {
         flex-direction: column-reverse;
         width: 100%;
-        padding-bottom: 30px;
     }
 
     .listen_icons {
@@ -371,15 +370,17 @@
         left: -10px;
     }
 
+
     .episode_header {
-        align-items: center;
+        flex-direction: column;
+        align-items: inherit;
     }
 
-   
 
-    .episode_tittle {
+    .episode_title {
         line-height: 1;
         font-size: 30px;
+        padding-bottom: 15px;
     }
 
     .button {
@@ -441,7 +442,7 @@
         grid-auto-rows: minmax(auto, auto);
     }
 
-    .comment_tittle {
+    .comment_title {
         font-size: 16px;
         line-height: 23px;
     }
@@ -511,6 +512,10 @@
         justify-content: space-between;
         
     } 
+    
+    .comments {
+        grid-template-columns: repeat(1, 1fr);
+    }
     
   
 }

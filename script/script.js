@@ -23,7 +23,7 @@ for (let item of menuItems) {
             return false;
         }
         
-        const offsetConst = 36;
+        const offsetConst = 0;
         let y =  document.querySelector(blockID).getBoundingClientRect().top + window.pageYOffset - offsetConst;
         const windowOuterWidth = document.documentElement.scrollWidth
 

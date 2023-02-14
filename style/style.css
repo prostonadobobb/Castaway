@@ -79,11 +79,14 @@ body {
   padding: 0 15px;
 }
 
+.level {
+  padding: 50px 0;
+}
+
 .level_inner {
   display: flex;
   align-items: center;
   color: #FFFFFF;
-  padding-bottom: 100px;
 }
 
 .level_img {
@@ -158,13 +161,13 @@ body {
   padding: 0;
 }
 
-.episodes_list {
-  padding-bottom: 60px;
+.latest_episodes {
+  padding-top: 50px;
 }
 
-/* .episodes_list .episode:last-child {
-  margin: 0;
-} */
+.episodes_list {
+  padding-bottom: 50px;
+}
 
 .episode_header {
   display: flex;
@@ -242,7 +245,7 @@ body {
 }
 
 .person {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .episode_button {
