@@ -1,6 +1,6 @@
 @media screen and (max-width: 1440px) {
     .container {
-        width: 1330px;
+        width: 1200px;
     }
 }
 
@@ -28,7 +28,6 @@
     .footer_outher_item ul + ul {
         padding-left: 7vh;
     }
-
     
     .episode_number {
         margin-top: 12px;
