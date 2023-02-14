@@ -138,7 +138,7 @@ body {
   margin-top: 90px;
 }
 
-.listen_tittle {
+.listen_title {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -173,7 +173,7 @@ body {
   padding-bottom: 60px;
 }
 
-.episode_tittle {
+.episode_title {
   color: #FFFFFF;
   font-weight: 400;
   font-size: 64px;
@@ -274,7 +274,7 @@ body {
   max-width: 100%;
 }
 
-.button_tittle {
+.button_title {
   font-size: 18px;
   line-height: 27px;
   color: #118DA8;
@@ -402,7 +402,7 @@ body {
   
 }
 
-.comment_tittle {
+.comment_title {
   font-size: 36px;
   line-height: 43px;
   color: #FFFFFF;
